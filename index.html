@@ -1,12 +1,127 @@
-<html>
+<!DOCTYPE html>
+<html lang="">
 
 <head>
-    <title>My first proj in [ ] </title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Photo gallery</title>
 </head>
 
 <body>
-    <h1 id="h" onmouseover="col()">My name is Shreesh. And this is my first activity in [] </h1>
-    <p id="p" onmouseover="col()">Earlier I studied online text-based coding and i liked it. It was also my firste time to use text-based. Now I am studying on a much advanced platform </p>
-</body></html>
+    <nav class="navbar-inverse" style="float:none; background-color:black;position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#gr">Grid veiw</a></li>
+                <li><a href="#sl">slider veiw</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+    <section id="Home">
+        <div style="text-align: center;"><img src="https://vignette2.wikia.nocookie.net/spongebob/images/5/5f/Squidward_Dance.gif/revision/latest?cb=20160720163731"><img src="https://gifimage.net/wp-content/uploads/2017/06/welcome-gif.gif"></div>
+
+    </section>
+
+    <!--grid veiw starts here-->
+    <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+    <section id="gr">
+        <div></div>
+        <img class="img-" src="http://1.bp.blogspot.com/_D8lQbK1JXho/SwHmKd_UBoI/AAAAAAAAAn0/_0XaTBpqF7U/s1600/flower-1.jpg">
+        <img class="img-" src="https://images.freeimages.com/images/large-previews/b78/funny-flowers-1338520.jpg">
+        <img class="img-" src="http://3.bp.blogspot.com/-Zl-oqtcp4cQ/UIEhFeakkPI/AAAAAAAABhc/ft0RDQFlgX8/s1600/funny+flowers+7.jpg">
+        <img class="img-" src="http://4.bp.blogspot.com/-cXe4DMlRyZE/Ucff02dytTI/AAAAAAAAmO4/BNV1kz8-L7A/s1600/Funny+Flowers+That+Make+You+Lol+(7).jpg">
+        <img class="img-" src="https://get.pxhere.com/photo/grass-plant-meadow-flower-petal-spring-yellow-banana-flora-sunflower-wildflower-flowers-fun-figure-funny-minion-macro-photography-flowering-plant-daisy-family-pollinator-computerwallpaper-membrane-winged-insect-toy-play-1412012.jpg">
+        <img class="img-" src="https://vignette.wikia.nocookie.net/theamazingworldofgumball/images/e/e0/Leslie_2.png/revision/latest?cb=20191202204019">
+    </section>
+
+    <!--slide veiw starts here-->
+    <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    <section id="sl">
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <a>
+                        <img src="http://1.bp.blogspot.com/_D8lQbK1JXho/SwHmKd_UBoI/AAAAAAAAAn0/_0XaTBpqF7U/s1600/flower-1.jpg" class="img-responsive">
+                    </a>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a><img src="https://images.freeimages.com/images/large-previews/b78/funny-flowers-1338520.jpg" class="img-responsive"></a>
+                </center>
+            </div>
+            
+            <div class="item">
+                <center>
+                    <a><img src="http://3.bp.blogspot.com/-Zl-oqtcp4cQ/UIEhFeakkPI/AAAAAAAABhc/ft0RDQFlgX8/s1600/funny+flowers+7.jpg" class="img-responsive"></a>
+                </center>
+            </div>
+            
+            <div class="item">
+                <center>
+                    <a><img src="http://4.bp.blogspot.com/-cXe4DMlRyZE/Ucff02dytTI/AAAAAAAAmO4/BNV1kz8-L7A/s1600/Funny+Flowers+That+Make+You+Lol+(7).jpg" class="img-responsive"></a>
+                </center>
+            </div>
+            
+            <div class="item">
+                <center>
+                    <a><img src="https://get.pxhere.com/photo/grass-plant-meadow-flower-petal-spring-yellow-banana-flora-sunflower-wildflower-flowers-fun-figure-funny-minion-macro-photography-flowering-plant-daisy-family-pollinator-computerwallpaper-membrane-winged-insect-toy-play-1412012.jpg" class="img-responsive"></a>
+                </center>
+            </div>
+            
+            <div class="item">
+                <center>
+                    <a><img src="https://vignette.wikia.nocookie.net/theamazingworldofgumball/images/e/e0/Leslie_2.png/revision/latest?cb=20191202204019" class="img-responsive" id="lesile"></a>
+                </center>
+            </div>
+            
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left">
+                </span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>
